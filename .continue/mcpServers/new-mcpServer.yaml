@@ -1,0 +1,10 @@
+name: LocalMCPServer
+version: 0.0.1
+schema: v1
+
+mcpServers:
+  - name: Local MCP Server
+    description: FastAPI tabanlı MCP sunucum
+    statusUrl: http://localhost:9000/mcp
+    chatUrl: http://localhost:9000/mcp/chat
+    completionUrl: http://localhost:9000/mcp/completion
